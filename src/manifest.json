@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Point2Homes metrics system",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.point2homes.com/*"
+      ],
+      "js": ["jquery-3.2.1.min.js", "content.js"]
+    }
+  ]
+}
